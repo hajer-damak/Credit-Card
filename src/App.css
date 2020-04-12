@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+input {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.credit-card{
+ margin: 20px;
+ width: 450px;
+ height: 250px;
+ padding: 10px;
+ border-radius: 15px;
+ color: white;
+ background-image: url('card.jpg') ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-left: 10px;
+  box-shadow: 0 0 3px #ced4da;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.number{
+  font-size:17px;
+  width: 300px;
+  margin-top: 152px;
+  height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.expiry{
+  font-size: 16px;
+  margin: 5px 150px 5px auto;
+  width: 120px;
+  height: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+  width:300px;
+  font-size: 16px;
+  height: 25px;
 }
